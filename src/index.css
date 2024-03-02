@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #FFD700;
+}
+
+.planets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.planet-card {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.planet-card h2 {
+  margin-top: 0;
+}
+
+.planet-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.planet-card ul li {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #FFD700;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #FFA500;
+}
